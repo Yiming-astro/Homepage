@@ -2,6 +2,11 @@
   {
     "title": "An agentic framework for gravitational-wave counterpart association in the multi-messenger era",
     "authors": "<strong>Yiming Dong</strong>, Yacheng Kang, Junjie Zhao, Xinyuan Zhu, Ziming Wang, Lijing Shao†",
+    "type": "preprint",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 1,
+    "category": ["LLM", "Physics"],
     "venue": "Preprint",
     "year": "2026",
     "highlight": "",
@@ -14,6 +19,11 @@
   {
     "title": "Cracking Gravitational Wave Multiple Ringdown Modes in Space",
     "authors": "Ziming Wang, Han Wang, Yuxin Yang, <strong>Yiming Dong</strong>, Hai-Tian Wang, Yi-Ming Hu, Lijing Shao†",
+    "type": "preprint",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 2,
+    "category": ["Physics"],
     "venue": "Preprint",
     "year": "2026",
     "highlight": "",
@@ -25,6 +35,11 @@
   {
     "title": "Probing RLVR training instability through the lens of objective-level hacking",
     "authors": "<strong>Yiming Dong</strong>, Kun Fu, Haoyu Li, Xinyuan Zhu, Yurou Liu, Lijing Shao, Jieping Ye, Zheng Wang†",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 3,
+    "category": ["LLM"],
     "venue": "ICML'26",
     "year": "2026",
     "highlight": "",
@@ -36,6 +51,11 @@
   {
     "title": "DrugTrail: Explainable Drug Discovery via Structured Reasoning and Druggability-Tailored Preference Optimization",
     "authors": "Yurou Liu, Mingyang Li, Xinyuan Zhu, Rui Jiao, <strong>Yiming Dong</strong>, Xinyu Tang, Yang Liu, Jieping Ye, Bing Su†, Zheng Wang†",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 4,
+    "category": ["LLM"],
     "venue": "ICLR'26",
     "year": "2026",
     "highlight": "",
@@ -47,6 +67,11 @@
   {
     "title": "A practical Bayesian method for gravitational-wave ringdown analysis with multiple modes",
     "authors": "<strong>Yiming Dong*</strong>, Ziming Wang*, Hai-Tian Wang, Junjie Zhao, Lijing Shao†",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 5,
+    "category": ["Physics"],
     "venue": "Nature Astronomy",
     "year": "2026",
     "highlight": "",
@@ -57,81 +82,110 @@
     ]
   },
   {
-      "title": "From Macro to Micro: Probing Dataset Diversity in Language Model Fine-Tuning",
-      "authors": "Haoyu Li*, Xuhong Li*, <strong>Yiming Dong</strong>, Kun Liu†",
-      "venue": "AAAI'26",
-      "year": "2026",
-      "highlight": "",
-      "thumbnail": "assets/publications/token_diversity/workflow.png",
-      "tags": [
-        { "text": "Paper", "link": "https://arxiv.org/abs/2505.24768" }
-      ]
+    "title": "From Macro to Micro: Probing Dataset Diversity in Language Model Fine-Tuning",
+    "authors": "Haoyu Li*, Xuhong Li*, <strong>Yiming Dong</strong>, Kun Liu†",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 6,
+    "category": ["LLM"],
+    "venue": "AAAI'26",
+    "year": "2026",
+    "highlight": "",
+    "thumbnail": "assets/publications/token_diversity/workflow.png",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2505.24768" }
+    ]
   },
   {
-      "title": "Inferring neutron-star Love-Q relations from gravitational waves in the hierarchical Bayesian framework",
-      "authors": "Zhihao Zheng, Ziming Wang†, Jinwen Deng, <strong>Yiming Dong</strong>, Lijing Shao†",
-      "venue": "JCAP",
-      "year": "2026",
-      "highlight": "",
-      "thumbnail": "",
-      "tags": [
-        { "text": "Paper", "link": "https://iopscience.iop.org/article/10.1088/1475-7516/2026/05/086" }
-      ]
+    "title": "Inferring neutron-star Love-Q relations from gravitational waves in the hierarchical Bayesian framework",
+    "authors": "Zhihao Zheng, Ziming Wang†, Jinwen Deng, <strong>Yiming Dong</strong>, Lijing Shao†",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "category": ["Physics"],
+    "venue": "JCAP",
+    "year": "2026",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://iopscience.iop.org/article/10.1088/1475-7516/2026/05/086" }
+    ]
   },
   {
-      "title": "Lightweight posterior construction for gravitational-wave catalogs with the Kolmogorov-Arnold network",
-      "authors": "Wenshuai Liu, <strong>Yiming Dong†</strong>, Ziming Wang, Lijing Shao†",
-      "venue": "PRD",
-      "year": "2025",
-      "highlight": "",
-      "thumbnail": "assets/publications/GWKAN/workflow.png",
-      "tags": [
-        { "text": "Paper", "link": "https://doi.org/10.1103/7rcs-pz1c" },
-        { "text": "Code", "link": "https://github.com/liu-ws/KMADE" }
-      ]
+    "title": "Lightweight posterior construction for gravitational-wave catalogs with the Kolmogorov-Arnold network",
+    "authors": "Wenshuai Liu, <strong>Yiming Dong†</strong>, Ziming Wang, Lijing Shao†",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "category": ["Physics"],
+    "venue": "PRD",
+    "year": "2025",
+    "highlight": "",
+    "thumbnail": "assets/publications/GWKAN/workflow.png",
+    "tags": [
+      { "text": "Paper", "link": "https://doi.org/10.1103/7rcs-pz1c" },
+      { "text": "Code", "link": "https://github.com/liu-ws/KMADE" }
+    ]
   },
   {
-      "title": "Reanalyzing the ringdown signal of GW150914 using the F-statistic method",
-      "authors": "Hai-Tian Wang†, Ziming Wang, <strong>Yiming Dong</strong>, Garvin Yim, Lijing Shao",
-      "venue": "PRD",
-      "year": "2025",
-      "highlight": "",
-      "thumbnail": "",
-      "tags": [
-        { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.111.064037" }
-      ]
+    "title": "Reanalyzing the ringdown signal of GW150914 using the F-statistic method",
+    "authors": "Hai-Tian Wang†, Ziming Wang, <strong>Yiming Dong</strong>, Garvin Yim, Lijing Shao",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "category": ["Physics"],
+    "venue": "PRD",
+    "year": "2025",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.111.064037" }
+    ]
   },
   {
-      "title": "New limits on the local Lorentz invariance violation of gravity in the standard model extension with pulsars",
-      "authors": "<strong>Yiming Dong*</strong>, Ziming Wang*, Lijing Shao†",
-      "venue": "PRD",
-      "year": "2024",
-      "highlight": "",
-      "thumbnail": "",
-      "tags": [
-        { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.109.084024" }
-      ]
+    "title": "New limits on the local Lorentz invariance violation of gravity in the standard model extension with pulsars",
+    "authors": "<strong>Yiming Dong*</strong>, Ziming Wang*, Lijing Shao†",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "category": ["Physics"],
+    "venue": "PRD",
+    "year": "2024",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.109.084024" }
+    ]
   },
   {
-      "title": "Moment of inertia for axisymmetric neutron stars in the standard model extension",
-      "authors": "<strong>Yiming Dong</strong>, Zexin Hu, Rui Xu, Lijing Shao†",
-      "venue": "PRD",
-      "year": "2023",
-      "highlight": "",
-      "thumbnail": "",
-      "tags": [
-        { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.108.104039" }
-      ]
+    "title": "Moment of inertia for axisymmetric neutron stars in the standard model extension",
+    "authors": "<strong>Yiming Dong</strong>, Zexin Hu, Rui Xu, Lijing Shao†",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "category": ["Physics"],
+    "venue": "PRD",
+    "year": "2023",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.108.104039" }
+    ]
   },
   {
-      "title": "Prospects for constraining the Yukawa gravity with pulsars around Sagittarius A*",
-      "authors": "<strong>Yiming Dong</strong>, Lijing Shao†, Zexin Hu, Xueli Miao, Ziming Wang",
-      "venue": "JCAP",
-      "year": "2022",
-      "highlight": "",
-      "thumbnail": "",
-      "tags": [
-        { "text": "Paper", "link": "https://doi.org/10.1088/1475-7516/2022/11/051" }
-      ]
+    "title": "Prospects for constraining the Yukawa gravity with pulsars around Sagittarius A*",
+    "authors": "<strong>Yiming Dong</strong>, Lijing Shao†, Zexin Hu, Xueli Miao, Ziming Wang",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "category": ["Physics"],
+    "venue": "JCAP",
+    "year": "2022",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://doi.org/10.1088/1475-7516/2022/11/051" }
+    ]
   }
 ]

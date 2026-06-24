@@ -94,7 +94,7 @@
                         <!-- Name and Title -->
                         <div class="text-center mb-6">
                             <h1 class="text-3xl font-serif font-bold text-primary mb-2">Yiming Dong</h1>
-                            <p class="text-lg text-accent font-medium mb-1">AI4Astrophysics & LLM</p>
+                            <p class="text-lg text-accent font-medium mb-1">LLM & AI4Physics</p>
                             <p class="text-neutral-600 mb-2">School of Physics, Peking University</p>
                         </div>
 
@@ -179,7 +179,7 @@
                                 Lijing Shao
                                 </a>.
                                 I received my bachelor's degree in Astrophysics from the School of Physics at Peking University in 2023.
-                                My research focuses on AI-driven astrophysical data analysis and the use of large language models to accelerate scientific discovery, including related post-training researches.
+                                My research focuses on post-training techniques for large language models, particularly reinforcement learning, as well as AI-driven astrophysical data analysis.
                             </p>
                         </div>
                     </section>
@@ -191,25 +191,9 @@
                         </div>
                         <div class="prose max-w-none text-neutral-600 text-justify formal-font">
 
-                            <p class="mb-8">
-                            My research interests center on 
-                            <span class="text-primary italic border-b border-primary/30 pb-0.5">statistical inference</span>
-                            and 
-                            <span class="text-primary italic border-b border-primary/30 pb-0.5">artificial intelligence</span>. 
-                            <span class="text-primary italic border-b border-primary/30 pb-0.5">Statistical inference</span>
-                            refers to the process of <b>using data analysis to infer properties of an underlying probability 
-                            distribution</b>. This principled methodology plays a central role in <b>gravitational-wave astronomy</b>, 
-                            where statistically faithful conclusions must be drawn from diverse observational data.
-                            </p>
-                            
-                            <p class="mb-8">
-                            I am also interested in 
-                            <span class="text-primary italic border-b border-primary/30 pb-0.5">artificial intelligence</span> 
-                            and its applications, including the use of AI to accelerate gravitational-wave data analysis and 
-                            the exploration of <b>large language models</b> in gravitational-wave astronomy.
-                            In addition, I am interested in related <b>post-training techniques</b> for large language models, 
-                            including how <b>reinforcement learning</b> can be used to enhance model reasoning capabilities.
-                            </p>
+                            <p class="mb-4"> My research interests currently center on <span class="text-primary italic border-b border-primary/30 pb-0.5">reinforcement learning for large language models</span>, including training stability, agentic reinforcement learning, and building scientific agents for physics. </p>
+
+                            <p class="mb-8"> I am also interested in <span class="text-primary italic border-b border-primary/30 pb-0.5">statistical inference</span>, the process of using data analysis to infer properties of an underlying probability distribution, and in using AI to accelerate it and broaden its applications. </p>
 
                             <div class="grid md:grid-cols-2 gap-6">
                                 <!-- Thrust 1 -->
@@ -218,8 +202,8 @@
                                         <i class="fas fa-project-diagram text-accent mr-2 group-hover:scale-110 transition-transform"></i> Statistical Inference
                                     </h3>
                                     <ul class="text-sm leading-relaxed text-neutral-600 list-disc list-inside flex-grow space-y-1">
-                                        <li>Bayesian Inference for Gravitational Waves</li>
-                                        <li>Tests of Gravity</li>
+                                        <li>Bayesian Inference</li>
+                                        <li>Tests of Gravity & Gravitational waves</li>
                                     </ul>
                                 </div>
 
@@ -229,8 +213,8 @@
                                         <i class="fas fa-brain text-accent mr-2 group-hover:scale-110 transition-transform"></i> Artificial Intelligence
                                     </h3>
                                     <ul class="text-sm leading-relaxed text-neutral-600 list-disc list-inside flex-grow space-y-1">
-                                        <li>AI for Astrophysics</li>
-                                        <li>Large Language Model Reasoning & Reinforcement Learning</li>
+                                        <li>Large Language Model Reasoning</li>
+                                        <li>Reinforcement Learning</li>
                                     </ul>
                                 </div>
                             </div>
@@ -243,8 +227,14 @@
                             <h2 class="text-3xl font-serif font-bold text-primary">Publications</h2>
                             <p class="text-sm text-neutral-500 mt-1">(* indicates equal contribution; † indicates corresponding author)</p>
                         </div>
-                        
-                        <div class="publications-list space-y-6">
+
+                        <div class="publication-filters">
+                            <a href="#" class="filter-link active" id="filter-all" data-filter="all">Full List</a>
+                            <a href="#" class="filter-link" id="filter-llm" data-filter="llm">LLM</a>
+                            <a href="#" class="filter-link" id="filter-physics" data-filter="physics">Physics</a>
+                        </div>
+
+                        <div id="all-publications-container" class="publications-list" style="margin-top: 1.5rem;">
                             <!-- Dynamic Content loaded from data/publications.json -->
                         </div>
                     </section>
@@ -293,31 +283,36 @@
                         <h2 class="text-3xl font-serif font-bold text-primary">Internship</h2>
                     </div>
 
-                        <div class="experience-list space-y-8">
-                        <div class="experience-item">
-                            <h3 class="font-semibold text-primary">
-                            Internship | 2025.03 - 2026.04
-                            </h3>
-                            <p class="text-sm text-accent font-medium">
-                            Alibaba Cloud Intelligence System
-                            </p>
-                            <p class="text-sm text-neutral-600 mt-1 leading-relaxed">
-                            Large Language Model Reasoning & Reinforcement Learning
-                            </p>
+                        <div class="timeline space-y-6">
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100">
+                                    <img src="assets/aliyun.png"
+                                    alt="Alibaba Cloud Intelligence System"
+                                    class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Internship | 2025.03 - 2026.04</h3>
+                                    <p class="text-sm text-accent font-medium">Alibaba Cloud Intelligence System</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed">
+                                    Large Language Model Reasoning & Reinforcement Learning
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100">
+                                    <img src="assets/tongyi.png"
+                                    alt="Tongyi Lab, Alibaba Token Hub"
+                                    class="w-full h-full object-contain">
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Internship | 2026.04 - now</h3>
+                                    <p class="text-sm text-accent font-medium">Tongyi Lab, Alibaba Token Hub (ATH)</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed">
+                                    Reinforcement Learning & LLM Agent
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="experience-item">
-                            <h3 class="font-semibold text-primary">
-                            Internship | 2026.04 - now
-                            </h3>
-                            <p class="text-sm text-accent font-medium">
-                            Tongyi Lab, Alibaba Token Hub (ATH)
-                            </p>
-                            <p class="text-sm text-neutral-600 mt-1 leading-relaxed">
-                            Reinforcement Learning & LLM Agent
-                            </p>
-                        </div>
-
-                    </div>
                     </section>
 
                     <!-- Honors Section -->
