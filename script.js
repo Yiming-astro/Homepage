@@ -222,6 +222,7 @@ function renderAllPublications(container, publications) {
 
     publications
         .slice()
+        .sort(compareAllPublications)
         .forEach(pub => {
             const yearLabel = getYearLabel(pub);
             if (!grouped.has(yearLabel)) {
@@ -383,16 +384,16 @@ function compareAllPublications(a, b) {
         return yearB - yearA;
     }
 
-    const acceptedA = String(a.type || '').toLowerCase() === 'accepted' ? 1 : 0;
-    const acceptedB = String(b.type || '').toLowerCase() === 'accepted' ? 1 : 0;
-    if (acceptedA !== acceptedB) {
-        return acceptedB - acceptedA;
-    }
-
     const orderA = a.featuredOrder ?? Number.MAX_SAFE_INTEGER;
     const orderB = b.featuredOrder ?? Number.MAX_SAFE_INTEGER;
     if (orderA !== orderB) {
         return orderA - orderB;
+    }
+
+    const acceptedA = String(a.type || '').toLowerCase() === 'accepted' ? 1 : 0;
+    const acceptedB = String(b.type || '').toLowerCase() === 'accepted' ? 1 : 0;
+    if (acceptedA !== acceptedB) {
+        return acceptedB - acceptedA;
     }
 
     return String(a.title || '').localeCompare(String(b.title || ''));
