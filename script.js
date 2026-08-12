@@ -529,6 +529,7 @@ function getVenueShortName(venueStr, year) {
     if (s === 'ApJ' || s === 'AJ' || s === 'A&A') return s + revisionSuffix;
     if (s === 'MNRAS') return s + revisionSuffix;
     if (s === 'JCAP') return s + revisionSuffix;
+    if (s === 'Innovation') return s + revisionSuffix;
 
     return s || 'Preprint';
 }
@@ -571,6 +572,7 @@ function getVenueFullName(venueStr, year) {
     if (s === 'PRL') return 'Physical Review Letters';
     if (s === 'PRX') return 'Physical Review X';
     if (s === 'JCAP') return 'Journal of Cosmology and Astroparticle Physics';
+    if (s === 'Innovation') return 'The Innovation';
 
     // Nature Astronomy
     if (s.toLowerCase().includes('nature astronomy')) return 'Nature Astronomy';
